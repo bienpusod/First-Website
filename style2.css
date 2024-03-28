@@ -1,0 +1,77 @@
+body{
+    background-color: #5a4518;
+
+
+}
+
+h1{
+
+    display: flex;
+    color: white;
+    font-size: 60px;
+    background-color: black;
+    background: url(pictures/Untitled.jpg);
+    padding: 1em 2em;
+
+}
+
+
+.header{
+    background-color: #130c00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 28px;
+    margin-left: .5em;
+}
+
+a{
+    text-decoration: none; color:rgb(255, 255, 255);
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+label{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form{
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: #3f2d0a;
+
+}
+
+fieldset{
+    font-size: 20px;
+    color: white;
+    background-color: #130c00;
+    width: 1000px;
+    height: 600px;
+
+
+}
+
+legend{
+    display: flex;
+    margin-left: 1em;
+    font-size: 42px;
+    margin-bottom: 1em;
+}
+
+.entry{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.entry1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}

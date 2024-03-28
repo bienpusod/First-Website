@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dune Fanpage: Survey</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+
+    <body>
+
+        <h1>Dune Fanpage</h1>
+
+        <div class="header">
+            <a href="page1.html"><h3>Home</h3></a>
+            <a href="page2.html"><h3>Survey</h3></a>
+            <a href="page3.html"><h3>Resources</h3></a>
+            <a href="page4.html"><h3>Characters</h3></a>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Survey</legend>
+
+                <div class="entry">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div class="entry">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="last_name">
+                </div>
+
+                <div class="entry">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div class="entry">
+                    <label for="status">Have you read or watched Dune?</label>
+                    <select id="status" name="status">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="both">Both</option>
+                    </select>
+                </div>
+
+                <div class="entry">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comment" row="10" cols="33"></textarea>
+                </div>
+
+                <div class="entry1">
+                    <label for="newsletter">Sign up for news letter!</label>
+                    <input type="checkbox" id="condition" name="condition">
+                </div>
+
+                <div class="entry">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
